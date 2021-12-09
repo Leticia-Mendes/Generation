@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercicio03 {
 
 	public static void main(String[] args) {
+		
 		Scanner ler = new Scanner(System.in);
 		int tempoSegundos, horas, minutos, segundos;
 		System.out.print("Digite o tempo de duração do evento em segundos: ");
