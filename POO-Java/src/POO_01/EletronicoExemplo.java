@@ -11,8 +11,8 @@ public class EletronicoExemplo {
 		eletronico1.fabricante = "Eletrolux";
 		eletronico1.cor = "preta";
 		
-		eletronico1.ligar();
 		System.out.println(eletronico1.getDadosEletronico());
+		eletronico1.ligar();
 		eletronico1.desligar();
 		
 	}
