@@ -4,7 +4,7 @@ public class Aviao {
 	String _companhia;
 	String _modelo;
 	String _cor;
-	private Boolean _ligado;
+	Boolean _ligado;
 	
 	 public  void  ligar() 
 	 {
@@ -19,17 +19,18 @@ public class Aviao {
 	 public  void  decolar() 
 	 {
     	 if(_ligado == true ) {
-    		 System.out.print( "Pode iniciar processo de decolagem " );
+    		 System.out.printf("\nPode iniciar processo de decolagem.");
     	 }
     	 else {
-    		 System.out.print("O aviao está desligado");
+    		 System.out.printf("\nO aviao está desligado.");
     	 }
      }
 	 
-	 public void atributosAviao() {
-    	 System.out.println("A aviao é da companhia "+this._companhia);
-    	 System.out.println("O modelo do avião é "+this._modelo);
-    	 System.out.println("A cor do aviao é "+this._cor);
+	 public void atributosAviao() 
+	 {
+    	 System.out.printf("\nA aviao é da companhia "+ this._companhia);
+    	 System.out.printf("\nO modelo do avião é " + this._modelo);
+    	 System.out.printf("\nA cor do aviao é " + this._cor);
      }
 	 
 	 
